@@ -1,0 +1,25 @@
+/* This is a CSS file that defines styles for the Wordle game web page. The ".container" class sets the display property to "flex" and centers the container element horizontally using the "justify-content" property. It also adds a padding of 10 pixels. The "body" selector sets the background color of the page to yellow, centers the body element both horizontally and vertically using the "justify-content" and "align-items" properties respectively. The "#box" selector defines the styles for the main content of the page, which is contained in a div with the id "box". It sets the margin and padding to 10 pixels, the background color to yellow-green, and the width to 80% with a maximum width of 600 pixels. It also centers the content within the page by setting the margin-left and margin-right properties to "auto". */
+/* Gabriel Diaconu 2023 */
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+body {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    margin: 10px;
+    padding: 10px;
+    background-color: yellowgreen;
+    width: 80%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
